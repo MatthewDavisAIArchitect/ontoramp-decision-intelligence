@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ontoramp/decision-intelligence",
+  "title": "OntoRamp Decision Intelligence",
+  "description": "Log, evaluate, and ground AI decisions against authority context. Returns PASS, WARN, or BLOCK.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ontoramp-decision-intelligence.fly.dev/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key. Get your free key at ontoramp.com/mcp",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
