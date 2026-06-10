@@ -70,7 +70,7 @@ After 10 logged decisions, `evaluate_decision` surfaces authority gaps and promp
 
 ## Security
 
-- All responses are SO-24 audited — no scoring-formula internals, no substrate architecture details
+- All responses are audited for public release — no scoring-formula internals, no substrate architecture details
 - Write-path (`log_decision`) requires Developer or Org tier authentication
 - Your data is scoped to your tenant namespace and never shared across organizations
 - `GET /health` returns live status
@@ -83,4 +83,4 @@ After 10 logged decisions, `evaluate_decision` surfaces authority gaps and promp
 
 ---
 
-*Governed by the Davis Canon — SSOT. OntoRamp LLC · [ontoramp.com](https://ontoramp.com)*
+*Governed by OntoRamp Governance Physics. OntoRamp LLC · [ontoramp.com](https://ontoramp.com)*
